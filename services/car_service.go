@@ -10,6 +10,6 @@ import (
 // }
 
 func ServiceGetCar() (result models.Response) {
-	repo.RepoCar()
+	repo.RepoGetCar()
 	return result
 }
